@@ -47,7 +47,7 @@
     "url": "https://github.com/philiprehberger/ts-match/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18.0.0"
   },
   "sideEffects": false,
   "devDependencies": {

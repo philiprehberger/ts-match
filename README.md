@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/@philiprehberger/match-ts)](https://www.npmjs.com/package/@philiprehberger/match-ts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-Pattern matching for TypeScript -- switch on steroids.
+Pattern matching for TypeScript -- switch on steroids
 
 ## Installation
 
