@@ -1,8 +1,8 @@
 # @philiprehberger/match-ts
 
 [![CI](https://github.com/philiprehberger/ts-match/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-match/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/@philiprehberger/match-ts)](https://www.npmjs.com/package/@philiprehberger/match-ts)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/match-ts.svg)](https://www.npmjs.com/package/@philiprehberger/match-ts)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-match)](LICENSE)
 
 Pattern matching for TypeScript -- switch on steroids
 
