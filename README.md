@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-match/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-match/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/match-ts.svg)](https://www.npmjs.com/package/@philiprehberger/match-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-match)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Pattern matching for TypeScript -- switch on steroids
 
