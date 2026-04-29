@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- Add `P.regex(re)` matcher for matching strings against a regular expression
+- Fix README badge and Support links to point to the actual `ts-match` repository
+
 ## 0.1.3
 
 - Standardize README to 3-badge format with emoji Support section

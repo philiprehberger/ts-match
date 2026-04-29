@@ -161,6 +161,16 @@ export const P = {
     };
   },
 
+  /** Matches strings against a regular expression */
+  regex(pattern: RegExp): Matcher {
+    return {
+      [MATCH_SYMBOL]: (value: unknown): MatchResult => ({
+        matched: typeof value === "string" && pattern.test(value),
+        selections: {},
+      }),
+    };
+  },
+
   /** Matches arrays where every element matches the given pattern */
   array(pattern: unknown): Matcher {
     return {

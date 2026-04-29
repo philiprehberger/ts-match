@@ -380,4 +380,27 @@ describe("match", () => {
       assert.strictEqual(result, "matched");
     });
   });
+
+  describe("P.regex", () => {
+    it("matches strings against the regex", () => {
+      const result = match("user-42")
+        .with(P.regex(/^user-\d+$/), () => "user")
+        .otherwise(() => "other");
+      assert.strictEqual(result, "user");
+    });
+
+    it("does not match non-strings", () => {
+      const result = match(42 as unknown)
+        .with(P.regex(/^\d+$/), () => "matched")
+        .otherwise(() => "no match");
+      assert.strictEqual(result, "no match");
+    });
+
+    it("works inside object patterns", () => {
+      const result = match({ id: "abc-123", name: "Ada" })
+        .with({ id: P.regex(/^[a-z]+-\d+$/), name: P.string }, () => "ok")
+        .otherwise(() => "no");
+      assert.strictEqual(result, "ok");
+    });
+  });
 });
